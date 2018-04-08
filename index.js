@@ -25,7 +25,7 @@ function currentLine(katzDeliLine){
     if(i===0){
     lineString += `${spot}. ${katzDeliLine[i]} `;
     }
-    elseIf(i===katzDeliLine.length-1){
+    elseif(i===katzDeliLine.length-1){
     lineString += `${spot}. ${katzDeliLine[i]}`;
     }
     else{
