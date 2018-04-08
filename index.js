@@ -27,5 +27,10 @@ function currentLine(katzDeliLine){
       var lastSpot = katzDeliLine.length + '.';
       lineString+=`${lastSpot} ${katzDeliLine[i]}`;
     }
+    else{
+      var lineSpot = i+1 + '.'
+      lineString+= `${lineSpot} ${katzDeliLine[i], `
+    }
+    
   }
 }
