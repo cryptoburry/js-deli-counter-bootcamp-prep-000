@@ -23,8 +23,9 @@ function currentLine(katzDeliLine){
     if(i===0){
       lineString+=`1. ${katzDeliLine[i]} `;
     }
-    elseif(i===katzDeliLine.length-1){
-      
+    else if(i===katzDeliLine.length-1){
+      var lastSpot = katzDeliLine.length + '.';
+      lineString+=`${lastSpot} ${katzDeliLine[i]}`;
     }
   }
 }
