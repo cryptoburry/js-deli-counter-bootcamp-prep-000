@@ -23,7 +23,11 @@ function currentLine(katzDeliLine){
   for(var i=0;i<katzDeliLine.length;i++){
     var spot = i+1;
     if(i===0){
-    lineString += ` ${spot}. ${katzDeliLine[i]}`;
+    lineString += `${spot}. ${katzDeliLine[i]} `;
+    }
+    else{
+    lineString += `${spot}. ${katzDeliLine[i]} `;
+    }
   } return lineString;
   }
   else{
