@@ -9,6 +9,6 @@ function takeANumber(katzDeliLine, newPerson){
 function nowServing(katzDeliLine){
   if (katzDeliLine>0){
     firstInLine = katzDeliLine[0];
-    katzDeliLine.
+    katzDeliLine.shift
   }
 }
