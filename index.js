@@ -29,7 +29,7 @@ function currentLine(katzDeliLine){
     }
     else{
       var lineSpot = i+1 + '.'
-      lineString+= `${lineSpot} ${katzDeliLine[i], `
+      lineString+= `${lineSpot} ${katzDeliLine[i]}, `
     }
     
   }
