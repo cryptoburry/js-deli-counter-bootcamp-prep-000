@@ -31,6 +31,6 @@ function currentLine(katzDeliLine){
       var lineSpot = i+1 + '.'
       lineString+= `${lineSpot} ${katzDeliLine[i]}, `
     }
-    
   }
+  return lineString;
 }
