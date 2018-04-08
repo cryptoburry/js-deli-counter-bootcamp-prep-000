@@ -18,7 +18,8 @@ function nowServing(katzDeliLine){
 }
 
 function currentLine(katzDeliLine){
+  lineString = ""
   for(var i=0;i<katzDeliLine.length;i++){
-    
+    lineString += " " + katzDeliLine
   }
 }
