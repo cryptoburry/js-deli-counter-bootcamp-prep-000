@@ -21,7 +21,7 @@ function currentLine(katzDeliLine){
   var lineString = "The line is currently: ";
   for(var i=0;i<katzDeliLine.length;i++){
     if(i===0){
-      lineString+=`1. ${katzDeliLine[i]} `;
+      lineString+=`1. ${katzDeliLine[i]}, `;
     }
     else if(i===katzDeliLine.length-1){
       var lastSpot = katzDeliLine.length + '.';
