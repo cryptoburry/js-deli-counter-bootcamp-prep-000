@@ -18,8 +18,9 @@ function nowServing(katzDeliLine){
 }
 
 function currentLine(katzDeliLine){
-  lineString = ""
+  lineString = "The line is currently: "
   for(var i=0;i<katzDeliLine.length;i++){
-    lineString += " " + katzDeliLine
+    var spot = i+1;
+    lineString += `${spot}. ${katzDeliLine[i]}`;
   }
 }
