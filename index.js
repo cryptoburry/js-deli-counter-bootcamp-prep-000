@@ -8,7 +8,7 @@ function takeANumber(katzDeliLine, newPerson){
 
 function nowServing(katzDeliLine){
   if (katzDeliLine.length>0){
-    firstUp = katzDeliLine[0];
+    var firstUp = katzDeliLine[0];
     katzDeliLine.shift();
     return firstUp;
   }
