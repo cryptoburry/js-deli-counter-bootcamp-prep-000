@@ -3,8 +3,7 @@ var katzDeli = [];
 
 function takeANumber(katzDeliLine, newPerson){
     katzDeliLine[katzDeliLine.length] = newPerson;
-    var spotInLine = katzDeliLine.length + 1;
-    return `Welcome ${newPerson}, you are number ${spotInLine} in line.`;
+    return `Welcome ${newPerson}, you are number ${katzDeliLine.length} in line.`;
 }
 
 function nowServing(katzDeliLine){
