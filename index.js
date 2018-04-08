@@ -17,4 +17,7 @@ function nowServing(katzDeliLine){
   }
 }
 
-function 
+function currentLine(katzDeliLine){
+  var i;
+  for(var i=)
+}
