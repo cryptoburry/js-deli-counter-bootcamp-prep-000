@@ -22,10 +22,10 @@ function currentLine(katzDeliLine){
   if(katzDeliLine.length>0){
   for(var i=0;i<katzDeliLine.length;i++){
     var spot = i+1;
-    lineString += `${spot}. ${katzDeliLine[i]}`;
+    lineString += `${spot}. ${katzDeliLine[i]} `;
   } return lineString;
   }
   else{
-    return 'The line is currently empty';
+    return 'The line is currently empty.';
   }
 }
